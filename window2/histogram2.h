@@ -33,7 +33,7 @@ template <class F> class Histogram2 {
       double l_2= 7.5*mu2 - 2.5;
       double mu4= mu2*mu2;
       double l_4= 1.125*(35.0*mu2*mu2 - 30.0*mu2 + 3.0);
-      m.r   += r;
+      m.r   += w*r;
       m.y00 += w;
       m.y22 += w*l_2*l_2;
       m.y44 += w*l_4*l_4;
