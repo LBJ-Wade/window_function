@@ -50,7 +50,7 @@ def compute_corr(ps, kind='linear'):
     
 def compute_power_spectrum(filename, growth, b, f):
     """
-    Compute power spectrum multipoles
+    Compute power spectrum multipoles of a linear Kaiser model (no damping)
     """
 
     a = np.loadtxt(filename)
